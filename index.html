@@ -26,7 +26,7 @@ function thenceThen(timespan){
  var hours=Math.floor((totalSecs-days*24*3600)/3600);
  var mins=Math.floor((totalSecs-days*24*3600-hours*3600)/60);
  var secs=Math.floor((totalSecs-days*24*3600-hours*3600-mins*60));
- document.getElementById("thenceThen").innerText=timespan+"距今："+days+"天"+hours+"小时"+mins+"分钟"+secs+"秒";
+ document.getElementById("thenceThen").innerText=timespan+" timespan锛�+days+" days, "+hours+" hours, "+mins+" min, "+secs+" sec.";
 }
 var clock;
 window.onload=function(){
@@ -101,7 +101,6 @@ document.write("&copy; 2015-"+ update + " Val Woo.");
       </div>
     </div>
  </div>
- <script type="text/javascript" src="https://js.users.51.la/21282751.js"></script>
  </body>
    <script src="js/jquery-1.10.2.js" type="text/javascript"></script>
    <script src="js/bootstrap.min.js" type="text/javascript"></script>
